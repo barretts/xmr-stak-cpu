@@ -215,7 +215,6 @@ bool minethd::self_test()
 	alloc_msg msg = { 0 };
 	size_t res;
 	bool fatal = false;
-	return true;
 
 	switch (jconf::inst()->GetSlowMemSetting())
 	{
@@ -279,7 +278,7 @@ bool minethd::self_test()
 		return false;
 	}
 
-	unsigned char out[32*5];
+	unsigned char out[32*8];
 	bool bResult;
 
 	cn_hash_fun hashf;
