@@ -9,9 +9,9 @@ XMR-Stak is a universal Stratum pool miner. This is the CPU-mining version; ther
 
 To configure the reports shown above you need to edit the httpd_port variable. Then enable wifi on your phone and navigate to [miner ip address]:[httpd_port] in your phone browser. If you want to use the data in scripts, you can get the JSON version of the data at url [miner ip address]:[httpd_port]/api.json
 
-## Usage on Windows 
-1) Edit the config.txt file to enter your pool login and password. 
-2) Double click the exe file. 
+## Usage on Windows
+1) Edit the config.txt file to enter your pool login and password.
+2) Double click the exe file.
 
 XMR-Stak should compile on any C++11 compliant compiler.
 ```
@@ -51,7 +51,7 @@ uM+B10XY0g7Qv376UoJRYKokpVaBxF08nD+JXLdL+zfQvnEfKgrhTnjaTkWFfEY=
 - [Windows](WINCOMPILE.md)
 
 
-#### CPU mining performance 
+#### CPU mining performance
 
 Performance is nearly identical to the closed source paid miners. Here are some numbers:
 
@@ -63,14 +63,12 @@ Performance is nearly identical to the closed source paid miners. Here are some 
 ## Default dev donation
 By default the miner will donate 2% of the hashpower (2 minute in 100 minutes) to my pool. If you want to change that, edit **donate-level.h** before you build the binaries.
 
-If you want to donate directly to support further development, here is my wallet
-
-fireice-uk:
+If you want to donate directly to support this **AEON FORK**:
 ```
 4581HhZkQHgZrZjKeCfCJxZff9E3xCgHGF25zABZz7oR71TnbbgiS7sK9jveE6Dx6uMs2LwszDuvQJgRZQotdpHt1fTdDhk
 ```
 
-psychocrypt:
+If you want to donate directly to support further development, here is **fireice-uk XMR wallet**
 ```
 43NoJVEXo21hGZ6tDG6Z3g4qimiGdJPE6GRxAmiWwm26gwr62Lqo7zRiCJFSBmbkwTGNuuES9ES5TgaVHceuYc4Y75txCTU
 ```
@@ -115,9 +113,9 @@ ulimit -l. To do this you need to add following lines to /etc/security/limits.co
 
     * soft memlock 262144
     * hard memlock 262144
-    
+
 Save file.  You WILL need to log out and log back in for these settings to take affect on your user (no need to reboot, just relogin in your session).
-   
+
 You can also do it Windows-style and simply run-as-root, but this is NOT recommended for security reasons.
 
 **Illegal instruction (core dumped)**
